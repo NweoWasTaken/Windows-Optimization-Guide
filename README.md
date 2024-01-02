@@ -1,6 +1,6 @@
 # Personal Windows Optimization Guide 
 
-***Working on a HTML version***
+~~***Working on a HTML version***~~ ***soon™***
 
 ### This guide is still in development
 
@@ -42,7 +42,8 @@ I will also give credit to each person and links to the repositories.
 3) [Booting the system](#booting-the-system)
 4) [Scripts and post-installation programs](#scripts-and-post-installation-programs)
 5) [Basic programs](#basicPrograms) ⛔
-6) [Small extra details](#extraDetail) ⛔
+6) [Programs source](#programDownloads) ⛔
+7) [Small extra details](#extraDetail) ⛔
 
 ##### Extra
 
@@ -57,7 +58,7 @@ I will assume you are on a fresh installation of windows, it is the most recomme
 
 There are several ways to obtain ISOs of Windows 10 and also quite simple.
 
-1) <a id="getWin10M1"> [Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10)⚫🆓✅: Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way).</a>
+1) <a id="getWin10M1">[Official (Slow)](https://www.microsoft.com/en-us/software-download/windows10)⚫🆓✅: Downloading the system update tool to get the latest version of the system (This will download a system update download tool, a bit slow compared to the next way). </a>
 
 2) [Official (Faster?)](https://www.microsoft.com/en-us/software-download/windows10)⚫🆓✅: Now instead of using the update tool we will download an ISO directly from the site, just follow a few steps to start with.
 
@@ -75,7 +76,25 @@ There are several ways to obtain ISOs of Windows 10 and also quite simple.
     
     4) Finally this will download the ISO with the selected preferences, when the process is finished you can proceed [Booting the system] to install the system.
 
-3) [Universal Media Creation Tool](https://github.com/AveYo/MediaCreationTool.bat)🟢✅⭐: Universal Media Creation Tool is a script made in Batch and PowerShell that allows you to download any version of windows 10, even the enterprise editions, it's very useful. It also downloads everything from official windows servers, the problem is that like [method 1](#getWin10M1) it uses a download tool which can be a bit more annoying than a direct download.
+3) [Universal Media Creation Tool](https://github.com/AveYo/MediaCreationTool.bat)🟢✅⭐: Universal Media Creation Tool is a script made in Batch and PowerShell that allows you to download any version of windows 10, even the enterprise editions, it's very useful. It also downloads everything from official windows servers, the problem is that like [method 1](#getWin10M1) it uses a download tool which can be a bit more annoying than a direct download. Now I will give you a step by step, simple how to get your ISO.
+
+    a) Download the zip file from the official repository.
+
+    b) Run the `MediaCreationTool.bat`, this will open several cmd and powershell terminals, you should wait until you get one with all Windows 10 versions as in the following image
+
+    c) Then choose one of the following options
+
+    1) Auto Upgrade
+
+    2) Auto ISO
+
+    3) Auto USB
+
+    4) Select
+
+    5) MCT Defaults
+
+    *You can see what each one does in detail [here](https://github.com/AveYo/MediaCreationTool.bat?tab=readme-ov-file#presets)*
 
 4) [Windows Downloader](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool)⚫🆓: This program not only allows you to download Win10 ISOs but also lets you download Office directly.
 
